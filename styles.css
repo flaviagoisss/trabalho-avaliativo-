@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://images.hdqwalls.com/download/nebula-stars-space-4k-2b-2048x1152.jpg");
+}
+
+button {
+  border: 1px solid rgb(105, 197, 255);
+  border-radius: 5px;
+  background-color: rgb(227, 248, 255);
+  color: rgb(105, 197, 255);
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(228, 221, 221);
+ 
+
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: rgb(5, 236, 82);
+}
+.button-remove {
+    /* Estilos para o botão "Remover" */
+    border: 1px solid rgb(105, 225, 255);
+    border-radius: 5px;
+    background-color: rgb(255, 227, 227);
+    color: rgb(77, 224, 235);
+    text-align: center;
+    padding: 5px;
+    margin-left: 150px;
+}
+
+h1{
+  border: 1px solid rgb(105, 225, 255);
+  border-radius: 5px;
+  background-image: url("https://images.hdqwalls.com/download/nebula-space-universe-art-4k-wr-2048x1152.jpg");
+  color: rgb(77, 224, 235);
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 77px;
+  width: 600px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 7 auto;
+  padding: 90px;
+  border: 10px solid #080808b7;
+  border-radius: 20px;
+ background-image: url("https://images.hdqwalls.com/download/nebula-space-universe-art-4k-wr-2048x1152.jpg");
+  margin-top: 77px;
+  color: aliceblue;
+}
+
+img {
+
+
+position: absolute;
+bottom: 0;
+right: 0;
+
+}
